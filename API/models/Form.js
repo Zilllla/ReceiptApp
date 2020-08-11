@@ -110,6 +110,9 @@ const formSchema = new mongoose.Schema({
       unit: String
     }
   },
+  instructions: {
+    type: String, required: true
+  },
   images: {
   img1: String,
   img2: String,
