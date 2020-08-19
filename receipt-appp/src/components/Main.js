@@ -48,6 +48,7 @@ componentDidMount() {
       <div>
         <New
           handleCreate={this.handleCreate}
+          formInputs={this.props.formInputs}
         />
         <Receipts
           receipts={this.state.receipts}
