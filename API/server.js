@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
 });
 
 //CREATE
-app.post("/create", (req, res) => {
+app.post("/", (req, res) => {
   Form.create(req.body).then(data => res.json(data));
 });
 

@@ -59,6 +59,7 @@ class New extends Component {
 
   handleSubmit = (e) => {
     e.preventDefaut()
+    this.props.handleCreate(this.state)
   }
 
 
