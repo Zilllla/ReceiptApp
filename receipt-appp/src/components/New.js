@@ -60,12 +60,21 @@ class New extends Component {
   handleSubmit = (e) => {
     e.preventDefaut()
     this.props.handleCreate(this.state)
+
   }
+
+  // componentDidMount() {
+  //   this.setState({
+  //     title: this.props.formInputs.title,
+  //     description: this.props.formInputs.description,
+  //
+  //   })
+  // }
 
 
   render() {
     return (
-      <div>
+      <div className="form">
       <h3>Form Component</h3>
       <form onSubmit={this.handleSubmit}>
         Title: <input type="text" id="title" value={this.state.title} onChange={this.handleChange} /> <br/>

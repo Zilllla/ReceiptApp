@@ -70,3 +70,11 @@ ing20: {
   amount20: '',
   unit20: ''
 }
+
+
+//FONTS
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Montserrat&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
