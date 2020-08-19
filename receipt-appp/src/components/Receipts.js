@@ -44,4 +44,4 @@ export default Receipts
 
 //5 img spaces available. How should i resolve emply img strings? ie how can I keep those from showing up as just blank on carousel.
 
-//need to figure out a way to loop through nested objects in ingrediets. maybe same solution as img loop?
+//need to figure out a way to loop through nested objects in ingrediets. maybe same solution as img loop? maybe use another map?

@@ -1,5 +1,6 @@
 import Header from './components/Header.js'
 import Receipts from './components/Receipts.js'
+import New from './components/New.js'
 import './App.css';
 
 import React, { Component } from 'react'
@@ -24,6 +25,7 @@ class App extends Component {
       <div>
         <Header />
         <h3>App Component</h3>
+        <New />
         <Receipts receipts={this.state.receipts} />
       </div>
     )
